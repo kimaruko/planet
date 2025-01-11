@@ -2,7 +2,7 @@ name:  Hoq
 on: 
   push:
     paths:
-      - planet.yml
+      - planet.yaml
 
 jobs:
   build:
