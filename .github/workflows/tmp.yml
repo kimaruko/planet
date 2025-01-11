@@ -1,0 +1,27 @@
+name: PR-test 
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - Dockerfile
+#  schedule:
+#    - cron: "30 */5 * * *"
+
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04 
+    name: goria 
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - uses: actions/checkout@v4
+#      - uses: actions/setup-python@v1
+#
+#      - name: GC
+#        run: python Dockerfile.py&&cd openclip&&pwd&&ls -lh *&&python requirements.py&&git config --global user.name "meer"&&git config --global user.email "meer8@gmail.com"&&git commit -a -m "clip-ci"&&git push origin master
+#
