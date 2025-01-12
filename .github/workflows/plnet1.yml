@@ -11,4 +11,5 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
     - name: asession
-      uses: lhotari/action-upterm@v1 
+      #uses: lhotari/action-upterm@v1 
+      uses: mxschmitt/action-tmate@v3

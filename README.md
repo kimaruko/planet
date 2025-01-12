@@ -1,4 +1,5 @@
 # **PLANET**
+
 ### PLANET: _**P**rotein-**L**igand **A**ffinity prediction **NET**work_
 
 Predicting protein-ligand binding affinity is still a central issue in drug design. No wonder various deep learning models have been developed in recent years to tackle this issue in one aspect or another. So far most of them merely focus on reproducing the binding affinity of known binders (i.e. so-called “scoring power”).<br>
